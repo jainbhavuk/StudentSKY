@@ -1,0 +1,77 @@
+body{
+
+    margin:0%;
+
+    
+
+}
+
+.outer
+
+{
+
+    background-color: black;
+height:105vh;
+width:100%;
+
+}
+
+.inner
+
+{
+
+background-color: wheat;
+
+width:97%;
+
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+padding:10px;
+
+border:red 2px solid;
+
+}
+
+.head
+
+{
+
+    background-color: red;
+
+    color:white;
+
+    font-weight: 600;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    width:97%;
+
+    text-align: center;
+
+    padding:10px;
+
+    font-size: 30px;
+
+}
+
+.terms
+
+{
+
+    padding:2px;
+
+    text-align:left;
+
+    margin-left: 0%;
+
+    margin-right: 5%;
+
+    font-size: 30px;
+
+}
+.terms ul
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
