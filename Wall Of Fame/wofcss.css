@@ -1,0 +1,149 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.logo h1
+{
+background-color: black;
+color:white;
+width:50%;
+text-align: center;
+margin-left:25%;
+padding:15px;
+font-size:33px;
+border-radius: 3px;
+}
+.logo h2 
+{
+font-size: 26px;
+position: absolute;
+background-color: tomato;
+color:white;
+margin-top: 3px;
+text-align: left;
+width:18%;
+margin-left: 22%;
+padding:5px;
+border-radius: 2px;
+}
+.logo
+{
+    width:98%;
+    height:30%;
+    background-color: gold;
+    color:black;
+    padding:12px;
+    text-align: center;
+    font-family: aharoni;
+    border:3px black solid;
+    font-weight: 600;
+}
+.logo img
+{
+    margin-top: -30px;
+    position:absolute;
+    margin-left: -49%;
+    
+}
+#photo 
+{
+    position: absolute;
+    margin-left:39%;
+    margin-top: -100px;
+}
+.bodywof
+{
+   
+    width: 100%;
+    
+    padding:1px;
+    background-color: black;
+    margin:0px;
+}
+
+.tab img
+{
+    width:55%;
+    height:16%;
+    margin-left: 20%;
+    border:7px white solid;
+    border-radius: 10px; 
+}
+
+.tab h4{
+    
+    margin-left:21%;
+    width:33%;
+        color:black;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-radius: 3px;
+    padding:1px;
+}
+.tab a 
+{
+    text-decoration: none;
+    color:black;
+}
+.tab h4:hover
+{
+    color:white;
+    background-color: tomato;
+}
+.tab a:hover
+{
+    color:white;
+}
+
+.submit
+{
+    background-color:khaki;
+    padding:10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:black;
+}
+.submit h3
+{
+    background-color: white;
+    color:black;
+    padding:5px;
+    border-radius: 10px;
+    margin-left:32%;
+    width:37%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+.submit a
+{
+    text-decoration: none;
+}
+.submit h3:hover
+{
+    background-color:salmon;
+    color:white;
+    padding:5px;
+    border-radius: 10px;
+    
+}
+
+#link
+{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blue;
+    color:white;
+    font-weight: 600;
+    padding:20px;
+    margin-top:-10px;
+}
+
+#link a
+{
+    color:white;
+    font-size: 20px;
+}
