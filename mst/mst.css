@@ -1,0 +1,140 @@
+.mstsyl
+{
+    
+    padding:2px;
+    
+
+   
+}
+.mstsyl h1
+{
+    background-color;
+    font-size: 25px;
+    padding:3px;
+color:white;
+}
+.mstsyl1
+{
+    
+    padding:10px;
+    border:4px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: tomato;
+    color: white;
+}
+body{
+    margin: 0%;
+}
+.shift
+{
+    background-color: gold;
+    width:100%;
+   height:100%;
+    padding-top: 20px;
+position: fixed;
+text-align: center;
+
+}
+.outbox
+{
+    padding:5px;
+    background-color: bisque;
+    width:85%;
+    height:100%;
+    position: relative;
+    padding-bottom: 5%;
+    border:1px black solid;
+}
+
+
+
+.head
+{
+    text-align: center;
+    padding:10px;
+    letter-spacing: 1mm;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: tomato;
+}
+.inbox
+{
+    width:100%;
+    height:100%;
+    position: relative;
+    background-position: center;
+}
+.datebox
+{
+    padding:45px;
+    background-color: greenyellow;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    border:black 3px solid;
+    font-size: 50px;
+}
+.datebox:hover
+{
+    background-color:skyblue;
+   
+}
+.datebox a{
+    padding:20px;
+    text-decoration:none;
+    text-align: center;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .datebox a:hover{
+        color:white;
+    }
+    .dwn
+    {
+        background-color: white;
+        padding:5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #homeback
+    {
+        width:50%;
+        text-align: center;
+        padding:5px;
+        background-color: black;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+    #homeback a{
+        text-decoration: none;
+        color:white;
+    }
+    #homeback:hover{
+        background-color: blue;
+    }
+    #warning
+    {
+        color:red;
+        background-color: white;
+        padding:5px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        animation-name: warning;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
+    @keyframes warning
+    {
+        from
+        {
+            background-color: white;
+            color:red;
+        }
+        to
+        {
+            background-color: red;
+            color:white; 
+        }
+    }
