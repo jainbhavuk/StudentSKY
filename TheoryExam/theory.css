@@ -1,0 +1,129 @@
+.notstarted
+{
+    background-color: red;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding:5px;
+    width:80%;
+    animation-name: notstart;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes notstart{
+    from{background-color: red; color:white;}
+    to{background-color: white; color:red;}
+}
+body{
+    margin: 0%;
+}
+.shift
+{
+    background-color:palegreen;
+    width:100%;
+   height:100%;
+    padding-top: 20px;
+position: fixed;
+text-align: center;
+
+}
+.outbox
+{
+    padding:5px;
+    background-color: skyblue ;
+    width:90%;
+    height:100%;
+    position: relative;
+    padding-bottom: 5%;
+    border:1px black solid;
+}
+.head
+{
+    text-align: center;
+    padding:10px;
+    font-weight: 600;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: salmon;
+}
+.inbox
+{
+    width:100%;
+    height:100%;
+    position: relative;
+    background-position: center;
+}
+.datebox
+{
+    padding:15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:khaki;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    border:black 1px solid;
+}
+.datebox:hover
+{
+    background-color:violet;
+   
+}
+.datebox a{
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .datebox a:hover{
+        color:white;
+    }
+    .dwn
+    {
+        background-color: white;
+        padding:5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #homeback
+    {
+        width:50%;
+        text-align: center;
+        padding:5px;
+        background-color: black;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+    #homeback a{
+        text-decoration: none;
+        color:white;
+    }
+    #homeback:hover{
+        background-color: blue;
+    }
+    #warning
+    {
+        color:red;
+        background-color: white;
+        padding:5px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        animation-name: warning;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
+    @keyframes warning
+    {
+        from
+        {
+            background-color: white;
+            color:red;
+        }
+        to
+        {
+            background-color: red;
+            color:white; 
+        }
+    }
