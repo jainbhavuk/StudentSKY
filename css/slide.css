@@ -1,0 +1,379 @@
+
+  
+.scrollgallery
+{
+    overflow: hidden;
+}
+@media screen and (min-width: 480px){
+@keyframes slider
+{
+    0%
+    {
+        left:0;
+    }
+    20%
+    {
+        left:0;
+    }
+    25%
+    {
+        left:-100%;
+    }
+    45%
+    {
+        left:-100%;
+    }
+    50%
+    {
+        left:-200%;
+    }
+    
+    70%
+    {
+        left:-200%;    
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left:-300%;
+    }
+    100%
+    {
+        left:-400%;
+    }
+}
+    #slider
+    {
+        overflow: hidden;
+        display:block;
+    }
+    #slider img
+    {
+        overflow:hidden;
+        width:20%;
+        float:left;
+        height:70vh;
+        margin-top: -5px;
+      
+    }
+    #slider 
+    {
+        overflow:hidden;
+        bottom:-25px;
+        height:50%;
+        position: relative;
+        width:500%;
+        margin:0;
+        padding: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 8s slider infinite;
+        animation-direction:alternate-reverse;
+        background-size:contain ;
+        background-position: center center;
+    margin-top: -24px;
+    }
+}
+
+
+
+@media screen and (max-width: 414px){
+    @keyframes slider
+    {
+        0%
+        {
+            left:0;
+        }
+        20%
+        {
+            left:0;
+        }
+        25%
+        {
+            left:-100%;
+        }
+        45%
+        {
+            left:-100%;
+        }
+        50%
+        {
+            left:-200%;
+        }
+        
+        70%
+        {
+            left:-200%;    
+        }
+        75%
+        {
+            left: -300%;
+        }
+        95%
+        {
+            left:-300%;
+        }
+        100%
+        {
+            left:-400%;
+        }
+    }
+        #slider
+        {
+            overflow: hidden;
+            display:block;
+        }
+        #slider img
+        {
+            overflow:hidden;
+            width:20%;
+            float:left;
+            height:70vh;
+            margin-top: -5px;
+           
+        }
+        #slider 
+        {
+            overflow:hidden;
+            bottom:-25px;
+            height:50%;
+            position: relative;
+            width:500%;
+            margin:0;
+            padding: 0;
+            left: 0;
+            text-align: left;
+            font-size: 0;
+            animation: 8s slider infinite;
+            animation-direction:alternate-reverse;
+            background-size:contain ;
+            background-position: center center;
+        margin-top: -24px;
+        }
+    }
+    @media screen and (max-width: 386px){
+        @keyframes slider
+        {
+            0%
+            {
+                left:0;
+            }
+            20%
+            {
+                left:0;
+            }
+            25%
+            {
+                left:-100%;
+            }
+            45%
+            {
+                left:-100%;
+            }
+            50%
+            {
+                left:-200%;
+            }
+            
+            70%
+            {
+                left:-200%;    
+            }
+            75%
+            {
+                left: -300%;
+            }
+            95%
+            {
+                left:-300%;
+            }
+            100%
+            {
+                left:-400%;
+            }
+        }
+            #slider
+            {
+                overflow: hidden;
+                display:block;
+            }
+            #slider img
+            {
+                overflow:hidden;
+                width:20%;
+                
+                height:80vh;
+                margin-top: -5px;
+                
+            }
+            #slider 
+            {
+                overflow:hidden;
+                bottom:0px;
+                height:100%;
+                
+                width:500%;
+               
+                padding: 0px;
+            
+                
+                animation: 6s slider infinite;
+                animation-direction:alternate-reverse;
+                background-size:contain ;
+                
+            margin-top: -24px;
+            margin-bottom: 0px;
+            }
+        }
+        @media screen and (max-width: 375px){
+            @keyframes slider
+            {
+                0%
+                {
+                    left:0;
+                }
+                20%
+                {
+                    left:0;
+                }
+                25%
+                {
+                    left:-100%;
+                }
+                45%
+                {
+                    left:-100%;
+                }
+                50%
+                {
+                    left:-200%;
+                }
+                
+                70%
+                {
+                    left:-200%;    
+                }
+                75%
+                {
+                    left: -300%;
+                }
+                95%
+                {
+                    left:-300%;
+                }
+                100%
+                {
+                    left:-400%;
+                }
+            }
+                #slider
+                {
+                    overflow: hidden;
+                    display:block;
+                }
+                #slider img
+                {
+                    overflow:hidden;
+                    width:20%;
+                    float:left;
+                    height:70vh;
+                    margin-top: -5px;
+                    
+                }
+                #slider 
+                {
+                    overflow:hidden;
+                    bottom:0px;
+                    height:50%;
+                    position: relative;
+                    width:500%;
+                    margin:0;
+                    padding: 0;
+                    left: 0;
+                    text-align: left;
+                    font-size: 0;
+                    animation: 8s slider infinite;
+                    animation-direction:alternate-reverse;
+                    background-size:contain ;
+                    background-position: center center;
+                margin-top: -24px;
+                }
+            }
+            @media screen and (max-width: 320px){
+                @keyframes slider
+                {
+                    0%
+                    {
+                        left:0;
+                    }
+                    20%
+                    {
+                        left:0;
+                    }
+                    25%
+                    {
+                        left:-100%;
+                    }
+                    45%
+                    {
+                        left:-100%;
+                    }
+                    50%
+                    {
+                        left:-200%;
+                    }
+                    
+                    70%
+                    {
+                        left:-200%;    
+                    }
+                    75%
+                    {
+                        left: -300%;
+                    }
+                    95%
+                    {
+                        left:-300%;
+                    }
+                    100%
+                    {
+                        left:-400%;
+                    }
+                }
+                    #slider
+                    {
+                        overflow: hidden;
+                        display:block;
+                    }
+                    #slider img
+                    {
+                        overflow:hidden;
+                        width:20%;
+                        float:left;
+                        height:70vh;
+                        margin-top: -5px;
+                        
+                    }
+                    #slider 
+                    {
+                        overflow: hidden;
+                        bottom:-25px;
+                        height:50%;
+                        position: relative;
+                        width:500%;
+                        margin:0;
+                        padding: 0;
+                        left: 0;
+                        text-align: left;
+                        font-size: 0;
+                        animation: 8s slider infinite;
+                        animation-direction:alternate-reverse;
+                        background-size:contain ;
+                        background-position: center center;
+                    margin-top: -24px;
+                    }
+                }
